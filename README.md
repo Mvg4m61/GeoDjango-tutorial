@@ -8,7 +8,7 @@ use Docker to quickly create a database using the kartoza postgis image, which p
 ```
 docker run --name=postgis -d -e POSTGRES_USER=user001 -e POSTGRES_PASS=123456789 -e POSTGRES_DBNAME=gis -p 5432:5432 kartoza/postgis:13.0
 ```
-After running the command, you’ll have a PostgreSQL server listening on the 5432 port with a database called gis. The database uses the user001 username and the 123456789 password.
+After running the command, you’ll have a PostgreSQL server listening on the 5432 port with a database called gis. Database credentials; username:user001 password:123456789
 # Getting Started
 1. Clone this repository to your local machine.
    ```
